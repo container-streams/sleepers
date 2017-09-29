@@ -28,10 +28,4 @@ RSpec.describe Sleepers do
       expect(defined? SimpleCommand).to eq 'constant'
     end
   end
-
-  describe 'mutations' do
-    it 'is defined' do
-      expect(defined? Mutations::Command).to eq 'constant'
-    end
-  end
 end
