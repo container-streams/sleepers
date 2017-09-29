@@ -6,18 +6,18 @@ require 'sleepers/version'
 Gem::Specification.new do |spec|
   spec.name          = "sleepers"
   spec.version       = Sleepers::VERSION
-  spec.authors       = ["Tyrone"]
-  spec.email         = ["tdubs241083@gmail.com"]
+  spec.authors       = ["Tyrone Wilson"]
+  spec.email         = ["tyrone.wilson@blackswan.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Base gems which we use in all of our rails based micro-services}
+  spec.description   = %q{If you are tired of boilerplate and would like a selection of awesome gems by default then just include this gem and have a bunch of hand picked great pattern encouraging gems installed}
+  spec.homepage      = ""
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
@@ -31,6 +31,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.14"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", "~> 11.0"
   spec.add_development_dependency "rspec", "~> 3.0"
 end
