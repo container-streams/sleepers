@@ -30,6 +30,18 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  # Production dependencies
+
+  # Convenience
+  spec.add_dependency 'hashie'
+
+  # Debug and output
+  spec.add_dependency 'table_print'
+  spec.add_dependency 'awesome_print'
+  spec.add_dependency 'pry-byebug'
+  spec.add_dependency 'simple_command'
+
+  # Development depedencies
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 11.0"
   spec.add_development_dependency "rspec", "~> 3.0"
