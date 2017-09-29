@@ -4,6 +4,7 @@ require 'table_print'
 require 'awesome_print'
 require 'hashie'
 require 'simple_command'
+require 'mutations'
 
 
 # configure pry-byebug
