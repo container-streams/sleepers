@@ -1,4 +1,5 @@
 require "sleepers/version"
+require "bundler/setup"
 require 'pry-byebug'
 require 'table_print'
 require 'awesome_print'
