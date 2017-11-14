@@ -40,6 +40,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'awesome_print'
   spec.add_dependency 'pry-byebug'
   spec.add_dependency 'simple_command'
+  spec.add_dependency 'simplecov'
 
   # Development depedencies
   spec.add_development_dependency "bundler", "~> 1.14"

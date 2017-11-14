@@ -1,5 +1,6 @@
 require "bundler/setup"
 require "sleepers"
+require "sleepers/rspec/config"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
