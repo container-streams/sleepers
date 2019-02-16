@@ -36,14 +36,15 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'hashie'
 
   # Debug and output
-  spec.add_dependency 'table_print'
   spec.add_dependency 'awesome_print'
   spec.add_dependency 'pry-byebug'
   spec.add_dependency 'simple_command'
   spec.add_dependency 'simplecov'
+  spec.add_dependency 'solargraph'
+  spec.add_dependency 'table_print'
 
   # Development depedencies
-  spec.add_development_dependency "bundler", "~> 1.14"
+  spec.add_development_dependency "bundler", "~> 2.0.1"
   spec.add_development_dependency "rake", "~> 11.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "gem-release"
